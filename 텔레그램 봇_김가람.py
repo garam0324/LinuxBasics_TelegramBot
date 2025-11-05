@@ -8,7 +8,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # 텔레그램 토큰
-TOKEN = '7866300477:AAHtXn7e33aU5L0VHhDXVp9egl3CgSFisuA'
+TOKEN = '토큰 번호'
 
 # 로그 설정
 logging.basicConfig(format = '%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.WARNING)
@@ -196,4 +196,5 @@ def main():
         GPIO.cleanup()  # 여기서 한 번만 cleanup
 
 if __name__ == '__main__':
+
     main()
